@@ -12,7 +12,7 @@ Hint: In Java, 9 / 5 is 1, but 9.0 / 5 is 1.8.
 
 public class Question2_1 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // create object of Scanner
         System.out.println("This is a program to convert Celsius to Farenheit");
 
         System.out.print("Enter a temperature value in Celsius: "); // prompts user to enter input
@@ -21,5 +21,7 @@ public class Question2_1 {
         double fahrenTemp = (9.0 / 5) * celsTemp + 32;
 
         System.out.println(celsTemp + " Celsius is " + fahrenTemp + " in Fahrenheit.");
+
+        input.close();
     }    
 }
