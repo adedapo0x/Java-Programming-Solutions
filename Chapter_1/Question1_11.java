@@ -21,7 +21,6 @@ public class Question1_11 {
         float deathRate = secondsInAYear / 13.0F;
         float immigrantRate = secondsInAYear / 45.0F;
 
-        System.out.println(birthRate);
 
         float currentPopulation = 312_032_486;
         for (int x = 1; x <= 5; x++){

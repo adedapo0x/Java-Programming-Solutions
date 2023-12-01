@@ -14,9 +14,9 @@ public class Question2_7 {
         System.out.print("Enter the number of minutes: ");
         int minutes = input.nextInt();
 
-        int years = minutes / 525_600;
-        int remainder = minutes % 525_600;
-        int days = remainder / 1440;
+        int years = minutes / 525_600;  // Divides by 525,600 since 1 year(365 days) has 525,600 minutes
+        int remainder = minutes % 525_600;  // Gets the remainder of the minutes after maximum year(s) has been gotten
+        int days = remainder / 1440;  // Calculates rest of days from remaining minutes
 
         System.out.println(minutes + " minutes is approximately " + years + " years and " + days + " days.");
         input.close();
