@@ -9,7 +9,7 @@ import java.util.Scanner;
     extracted digit. For instance, 932 % 10 = 2 and 932 / 10 = 93
  */
 
-public class Question2_6 {
+public class Question2_06 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

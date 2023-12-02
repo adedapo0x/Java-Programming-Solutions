@@ -7,7 +7,7 @@ import java.util.Scanner;
     to meters, and displays the result. One foot is 0.305 meter. 
  */
 
-public class Question2_3 {
+public class Question2_03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

@@ -5,7 +5,7 @@ package Chapter_1;
     times.
  */
 
-public class Question1_2 {
+public class Question1_02 {
     public static void main(String[] args) {
         int count = 5;
         System.out.println("Welcome to Java\n".repeat(count));

@@ -10,7 +10,7 @@ fahrenheit = (9 / 5) * celsius + 32
 Hint: In Java, 9 / 5 is 1, but 9.0 / 5 is 1.8.
  */
 
-public class Question2_1 {
+public class Question2_01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // create object of Scanner
         System.out.println("This is a program to convert Celsius to Farenheit");

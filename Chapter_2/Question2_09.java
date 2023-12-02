@@ -12,7 +12,7 @@ import  java.util.Scanner;
     then displays the average acceleration
  */
 
-public class Question2_9 {
+public class Question2_09 {
    public static void main(String[] args) {
       Scanner input = new Scanner(System.in); // Creates Scanner object
 

@@ -7,7 +7,7 @@ import java.util.Scanner;
     user enters 10 for subtotal and 15% for gratuity rate, the program displays $1.5
     as gratuity and $11.5 as total
  */
-public class Question2_5{
+public class Question2_05{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         

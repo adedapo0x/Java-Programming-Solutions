@@ -10,7 +10,7 @@ import java.util.Scanner;
         volume = area * length
  */
 
-public class Question2_2 {
+public class Question2_02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // creates Scanner object
 

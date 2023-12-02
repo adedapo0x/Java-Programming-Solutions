@@ -7,7 +7,7 @@ package Chapter_1;
  * area = radius * radius * p
  */
 
-public class Question1_8 {
+public class Question1_08 {
     public static void main(String[] args) {
         System.out.println("Radius given is 5.5, area = ?, perimeter = ?");
         double radius = 5.5;

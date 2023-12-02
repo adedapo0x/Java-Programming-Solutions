@@ -7,7 +7,7 @@ import java.util.Scanner;
     and remaining days for the minutes.
  */
  
-public class Question2_7 {
+public class Question2_07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

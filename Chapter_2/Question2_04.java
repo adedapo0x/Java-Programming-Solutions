@@ -7,7 +7,7 @@ import java.util.Scanner;
         to kilograms, and displays the result. One pound is 0.454 kilogram
  */
 
-public class Question2_4 {
+public class Question2_04 {
     public static void main(String[] args) {
         System.out.println("Program to convert pounds to kilograms");
 

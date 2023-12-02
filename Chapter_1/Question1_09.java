@@ -7,7 +7,7 @@ package Chapter_1;
  *      area = width * height
  */
 
-public class Question1_9 {
+public class Question1_09 {
     public static void main(String[] args) {
         System.out.println("Width = 4.5, Height = 7.9");
         System.out.println("Area is " + (4.5 * 7.9));
