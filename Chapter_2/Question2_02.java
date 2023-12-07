@@ -15,7 +15,7 @@ public class Question2_02 {
         Scanner input = new Scanner(System.in); // creates Scanner object
 
         System.out.println("Program to find the volume of a cylinder");
-        System.out.print("Enter radius and length of cylinder: ");
+        System.out.print("Enter radius and length of cylinder: "); // prompts user to enter parameters needed
         double radius = input.nextDouble(), length = input.nextDouble();
 
         double area = radius * radius * Math.PI; // utilizes the inbuilt Math.PI
@@ -23,7 +23,7 @@ public class Question2_02 {
 
         System.out.printf("Area is " + "%.4f\n", area);
         System.out.printf("Area of cylinder is " + "%.3f", volume);
-        input.close();
+        input.close(); 
 
     }
 }
