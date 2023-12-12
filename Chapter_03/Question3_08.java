@@ -11,22 +11,22 @@ public class Question3_08 {
         int num1 = input.nextInt(), num2 = input.nextInt(), num3 = input.nextInt();
         int largest, secondLargest, thirdLargest;
 
-        largest = num1;
+        // largest = num1;
 
 
-        if (num1 > num2 && num1 > num3)
-            largest = num1;
-            if (num2 > num3){
-                secondLargest = num2;
-                thirdLargest = num3;
-            }
-            else{
-                secondLargest = num3;
-                thirdLargest = num2;
-        else if (num2 > num1 && num2 > num3)
-            largest = num2;
-        else 
-            largest = num3;
+        // if (num1 > num2 && num1 > num3)
+        //     largest = num1;
+        //     if (num2 > num3){
+        //         secondLargest = num2;
+        //         thirdLargest = num3;
+        //     }
+        //     else{
+        //         secondLargest = num3;
+        //         thirdLargest = num2;
+        // else if (num2 > num1 && num2 > num3)
+        //     largest = num2;
+        // else 
+        //     largest = num3;
 
     }
 }
