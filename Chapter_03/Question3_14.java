@@ -9,7 +9,7 @@ import java.util.Random;
     guess, and reports whether the guess is correct or incorrect
  */
 
-public class Queston3_14 {
+public class Question3_14 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
