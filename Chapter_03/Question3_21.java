@@ -1,4 +1,6 @@
 package Chapter_03;
+import java.util.Scanner;
+
 /*
  * (Science: day of the week) Zeller’s congruence is an algorithm developed by 
     Christian Zeller to calculate the day of the week. The formula is
@@ -28,6 +30,56 @@ package Chapter_03;
 
 public class Question3_21 {
     public static void main(String[] args) {
-        
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter year: (e.g 2012): ");
+        int year = input.nextInt();
+        System.out.print("Enter month: 1-12: ");
+        int month = input.nextInt();
+        System.out.print("Enter the day of the month: 1-31: ");
+        int q = input.nextInt();
+        int m;
+
+        if (month == 1){
+            m = 13;
+            year -= 1;
+        } else if (month == 2){
+            m = 14;
+            year -= 1;
+        } else {
+            m = month;
+        }
+
+        int j = year / 100;
+        int k = year % 100;
+
+        int h = (q + (26 * (m + 1) / 10) + k + (k / 4) + (j / 4) + (5 * j)) % 7;
+
+        String weekDay = "";
+
+        switch (h) {
+            case 0:
+                weekDay += "Saturday";
+                break;
+            case 1:
+                weekDay += "Sunday";
+                break;
+            case 2:
+                weekDay += "Monday";
+                break;
+            case 3:
+                weekDay += "Tuesday";
+                break;
+            case 4:
+                weekDay += "Wednesday";
+                break;
+            case 5:
+                weekDay += "Thursday";
+                break;
+            case 6:
+                weekDay += "Friday";
+                break;  
+        }
+        System.out.println("Day of the week is " + weekDay);
     }
 }
