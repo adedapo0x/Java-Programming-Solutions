@@ -15,16 +15,17 @@ public class Question3_23 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.printf("Enter a point with two coordiantes: ");
+        System.out.printf("Enter a point with two coordinates: ");
         double x = input.nextDouble(), y = input.nextDouble();
+        String res = "";
 
-        double distance = Math.sqrt(Math.pow(x - 0, 2) + Math.pow(y - 0, 2));
-
-        if (distance <= (10 / 2)){
-            System.out.printf("Point (%.2f, %.2f) is in the rectangle.", x, y);
+        if (x <= (10.0 / 2) && y <= (5.0 / 2)){
+            res = "in";
         } else {
-            System.out.printf("Point (%.2f, %.2f) is not in the rectangle.", x, y);
+            res = "not in";
         }
+
+        System.out.printf("Point (%.2f, %.2f) is " + res + " the rectangle.", x, y);
         input.close();
     }
 }
