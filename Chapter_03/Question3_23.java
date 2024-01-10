@@ -13,6 +13,18 @@ import java.util.Scanner;
 
 public class Question3_23 {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         
+        System.out.printf("Enter a point with two coordiantes: ");
+        double x = input.nextDouble(), y = input.nextDouble();
+
+        double distance = Math.sqrt(Math.pow(x - 0, 2) + Math.pow(y - 0, 2));
+
+        if (distance <= (10 / 2)){
+            System.out.printf("Point (%.2f, %.2f) is in the rectangle.", x, y);
+        } else {
+            System.out.printf("Point (%.2f, %.2f) is not in the rectangle.", x, y);
+        }
+        input.close();
     }
 }

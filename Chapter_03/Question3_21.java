@@ -40,6 +40,8 @@ public class Question3_21 {
         int q = input.nextInt();
         int m;
 
+        input.close();
+        
         if (month == 1){
             m = 13;
             year -= 1;
@@ -81,5 +83,6 @@ public class Question3_21 {
                 break;  
         }
         System.out.println("Day of the week is " + weekDay);
+    
     }
 }
